@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { StringInterComponent } from './components/string-inter/string-inter.component';
 import { PropBindingComponent } from './components/property-binding/prop-binding.component';
 import { TwoWayBindingComponent } from './components/twoWay-binding/twoWay-binding.component';
+import { TemplateVariableComponent } from './components/template-variable/template-variable.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { TwoWayBindingComponent } from './components/twoWay-binding/twoWay-bindi
     StringInterComponent,
     PropBindingComponent,
     TwoWayBindingComponent,
+    TemplateVariableComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
