@@ -5,9 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './twoWay-binding.component.html',
 })
 export class TwoWayBindingComponent {
-  name: string;
+  someText: string;
 
   constructor() {
-    this.name = 'please enter name:';
+    this.someText = '';
   }
 }
